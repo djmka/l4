@@ -8,6 +8,7 @@
         padding: 0 50px;
         border-left: 1px solid red;
         border-right: 1px solid red;
+        box-sizing: border-box;
     }
     .log {
         margin-top: 40px;
@@ -30,7 +31,7 @@
     .menu.m {
         height: 40px;
         background-color: #4a4949;
-        width: 965px;
+        width: 958px;
         margin-bottom: 51px;
     }
     .menu.m li {
@@ -80,7 +81,7 @@
     }
     .cont {
         float: left;
-        width: 675px;
+        width: 667px;
     }
     .dmig {
         margin-bottom: 45px;
