@@ -78,12 +78,13 @@ p {
     width: 60%;
 }
 .right-column {
-    width: 44.9%;
+    width: 41.9%;
     margin-left: 2.5%;
     display: flex;
     flex-flow: ROW;
     FLEX-WRAP: WRAP;
-    justify-content: flex-end;
+    height: -webkit-fill-available;
+    justify-content: flex-start;
 }
 .right-column p {
     font-size: 16px;
@@ -113,10 +114,12 @@ p {
     background-color: #bcbcbc;
     DISPLAY: FLEX;
     JUSTIFY-CONTENT: CENTER;
+    margin-bottom: 15px;
 }
 #submit {
     background-color: #17f717;
     padding: 4px;
     margin: 16px;
     width: 19%;
+    
 }
