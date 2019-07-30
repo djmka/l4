@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 840px;
+    height: 847px;
     max-height: 847px;
     background-attachment: fixed;
 }
@@ -14,6 +14,11 @@
     display: flex;
     justify-content: space-between;
 }
+.wrapper.top {
+    height: 278px;
+    padding-top: 70px;
+    box-sizing: border-box;
+}
 .logo {
     width: 20%;
 }
@@ -22,18 +27,24 @@
     margin-left: 5%;
     margin-right: 1%;
 }
-.menu
-{
+.menu {
     height: 100%;
     display: flex;
-    width: 50%;
+    width: 75%;
+    justify-content: flex-end;
 }
 .menu li a {
     display: block;
-    height: 100%;
+    font-family: 'Pathway Gothic One', sans-serif;
     text-decoration: none;
-    line-height: 67px;
     color: white;
+    font-size: 25px;
+    padding-top: 15px;
+}
+.menu li a:hover {
+    color: #00b6ff;
+    font-weight: bolder;
+    border-bottom: 5px solid #ff00ee;
 }
 .slider {
     width: 100%;
@@ -49,9 +60,178 @@
     margin-left: 5%;
     height: 400px;
 }
+h2 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: bold;
+    color: #cdebf7;
+    font-size: 60px;
+}
+h4 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: bold;
+    color: #f52fe4fb;
+    font-size: 36px;
+    margin-top: 11px;
+    margin-bottom: 12px;
+}
+.text3 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 21px;
+    color: white;
+}
 .phone {
     height: 375px;
     position: relative;
     top: -22px;
-    right: 5%;
+    margin-right: 75px;
+}
+i.fas.fa-chevron-right, i.fas.fa-chevron-left {
+    font-size: 50px;
+    position: relative;
+    top: 87px;
+    color: #ffffff;
+}
+.fa, .fas {
+    margin-top: 10px;
+    margin-right: 3%;
+    font-size: 28px;
+    color: #f231e3;
+    align-self: flex-start;
+    margin-top: 75px;
+    margin-left: 10px;
+}
+.wrapper>(.fa-chevron-right, .fa-chevron-left) {
+    font-size: 21px;
+    position: relative;
+    vertical-align: middle;
+}
+.bc_about {
+    background: linear-gradient(180deg, #745082, black );
+    height: 350px;
+}
+.about {
+    height: 350px;
+    align-items: center;
+}
+.about_text {
+    color: white;
+    align-self: flex-start;
+    margin-top: 75px;
+}
+h3 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: bold;
+    color: #cdebf7;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+.about_text>a {
+    text-decoration: none;
+    color: white
+}
+.read {
+    position: relative;
+    right: 15px;
+    text-align: right;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.read:hover {
+    text-shadow: 1px 1px 2px white, 0 0 1em red;
+
+}
+.bc_bot {
+    height: 490px;
+    background-color: #fff;
+    padding-top: 130px;
+    box-sizing: border-box;
+}
+.starts {
+    display: flex;
+    width: 50%;
+}
+.starts>img {
+    width: 50px;
+    height: 50px;
+}
+.inside {
+    flex-direction: column;
+    margin-left: 4%;
+    width: 80%;
+    margin-right: 2%;
+}
+h5, h6 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+h5>span {
+    color: #f231e3;
+}
+.starts>p {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 16px;
+
+}
+.recent {
+    width: 50%;
+}
+.bot_recent {
+    display: flex;
+    margin-bottom: 17px;
+}
+.bot_recent>img
+{
+    width: 50px;
+    height: 50px;
+    margin-right: 6px;
+}
+.bot_recent>.inside>p {
+    font-size: 20px;
+    font-weight: bold;
+}
+.inside>p {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+.inside>span {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 16px;
+}
+.recent>p>a {
+    margin-bottom:90px; 
+    text-decoration: none;
+}
+.bottom>img {
+    margin: 0 auto;
+}
+.bot {
+    height: 105px;
+    border-top: 1px solid rgb(134, 134, 134);
+    padding-top: 30px;
+    border-bottom: 1px solid rgb(134, 134, 134);
+}
+.footer {
+    background-color: #ececec;
+    height: 400px;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+.foter>span {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+.foter>p {
+    margin-top: 6px;
+    font-style: italic;
+    font-size: 16px;
+    color: #656565;
+}
+.footer_menu {
+    height: 115px;
+    
 }
