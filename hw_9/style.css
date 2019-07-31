@@ -1,0 +1,43 @@
+body {
+    background-image: url(../hw_9/img/bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 878px;
+}
+.col-2>p {
+    color: white;
+    margin: 0;
+}
+.header {
+    margin-top: 45px;
+}
+.logo {
+    position: relative;
+    top:15px;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.main {
+    height: 470px;
+    margin-top: 16px;
+}
+.col-4>p {
+    color: white;
+    text-align: center;
+    margin-bottom: 46px;
+}
+.row2 {
+    width: 822px;
+    margin: 0 auto;
+}
+
+.fot {
+    font-size: 11px;
+    text-align: center;
+    padding-top: 180px;
+    color: white;
+}
