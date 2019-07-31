@@ -116,7 +116,16 @@ i.fas.fa-chevron-right, i.fas.fa-chevron-left {
 .about_text {
     color: white;
     align-self: flex-start;
-    margin-top: 75px;
+    margin-top: 80px;
+}
+p.text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    font-size: 18px;
+    margin-top: 12px;
 }
 h3 {
     font-family: 'Pathway Gothic One', sans-serif;
@@ -193,9 +202,11 @@ h5>span {
     font-weight: bold;
 }
 .inside>p {
+    width: 354px;
     font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 18px;
+    font-size: 19px;
     margin-bottom: 6px;
+    line-height: 28px;
 }
 .inside>span {
     font-family: 'Pathway Gothic One', sans-serif;
@@ -228,10 +239,33 @@ h5>span {
 .foter>p {
     margin-top: 6px;
     font-style: italic;
-    font-size: 16px;
+    font-size: 18px;
     color: #656565;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    margin-right: 39px;
+    -webkit-box-orient: vertical;
 }
 .footer_menu {
     height: 115px;
-    
+    background-image: url(../img/footer.gif);
+}
+ul.menu.m_footer {
+    padding-top: 50px;
+    justify-content: left;
+}
+.m_footer>li {
+    margin-left: 0;
+    margin-right: 5%;    
+}
+.m_footer>a {
+    padding-top: 0;
+    justify-content: left;
+}
+.none {
+    color: #ececec;
+    position: relative;
+    z-index: -1;
 }
