@@ -1,0 +1,348 @@
+@media (max-width:1290px) {
+	.wrapper {
+		width: 960px;
+	}
+	.sale {
+		left: 38%;
+	}
+	.now {
+		top: 83%;
+	}
+	.ship>div>.big {
+		font-size: 16px;
+		margin-bottom: 39px;
+		color: white;
+	}
+	.ship>div>p {
+		font-size: 13px;
+	}
+	i.far.fa-clock {
+		top: 27px;
+		font-size: 46px;
+		left: 14%;
+	}
+	i.fas.fa-money-bill-alt {
+		top: 24px;
+		font-size: 45px;
+		left: 13%;
+	}
+	i.fas.fa-fighter-jet {
+    top: 22px;
+    font-size: 45px;
+    left: 9%;
+    }
+	.collec>hr {
+		width: 290px;
+	}
+	h3 {
+		font-size: 28px;
+	}
+	button.button {
+		right: 30%;
+		top: 4px;
+	}
+	.connect>span>i {
+		font-size: 37px;
+		margin-right: 40px;
+	}
+	.information>h2, .shops>h2, .custom>h2, .connect>h2 {
+		font-size: 13px;
+	}
+	.information>p, .shops>p, .custom>p {
+		font-size: 11px;
+	}
+	.connect>p {
+		font-size: 24px;
+	}
+	.copy {
+		font-size: 9px;
+	}
+	.days::before {
+		display: none;
+	}
+	.days::after {
+		display: none;
+	}
+}
+@media (max-width:980px) {
+	.wrapper {
+		width: 768px;
+	}
+	.lang {
+		display: none;
+	}
+	.right_bar {
+		width: 32%;
+		display: flex;
+		justify-content: flex-end;
+	}
+	.top {
+		flex-direction: column;
+	}
+	.menu {
+		width: 100%;
+	}
+	.menu_top>p {
+		margin-right: 6%;
+		font-size: 11px;
+	}
+	.menu_top {
+		width: 46%;
+	}
+	.mid {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		height: 200px;
+		width: 190px;
+		border: none;
+		background-color: rgba(255, 255, 255, 0.397);
+		position: absolute;
+		font-weight: bolder;
+	}
+	.mid::before {
+		display: none;
+	}
+	.mid>p {
+		margin-top: 2px;
+		margin-bottom: 2px;
+	}
+	.MID, .UP {
+		color: white;
+		font-size: 17px;
+		font-weight: 400;
+	}
+	.SALE {
+		font-size: 40PX;
+	}.OFF {
+		font-size: 32px;
+	}
+	.now {
+		left: 38%;
+	}
+	i.fas.fa-fighter-jet {
+		top: 29px;
+		font-size: 40px;
+		left: 36%;
+		transform: rotate(0deg);
+	}
+	i.fas.fa-money-bill-alt {
+		top: 30px;
+		font-size: 42px;
+		transform: rotate(0deg);
+		left: 39%;
+	}
+	i.far.fa-clock {
+    top: 29px;
+    font-size: 41px;
+    transform: rotate(0deg);
+    left: 40%;
+	}
+	.collec>hr {
+	    width: 195px;
+	}
+	.summer, .collec {
+		height: 30px;
+	}
+	.galary {
+	    justify-content: space-around;
+	}
+	button.button {
+	    right: 5%;
+	}
+}
+@media (max-width:768px) {
+	.wrapper {
+		width: 480px;
+	}
+	.right_bar {
+		display: none;
+	}
+	.main_header.wrapper {
+		flex-direction: row-reverse;
+	}
+	.main_menu {
+		width: 67%;
+		margin-top: 0;
+	}
+	form {
+		position: relative;
+		display: none;
+	}
+	.menu_top {
+		width: 65%;
+		justify-content: flex-end;
+	}
+	.menu_top>p {
+		margin-right: 5%;
+		font-size: 9px;
+	}
+	.connect {
+		display: none;
+	}
+	.collec>hr {
+		width: 90px;
+	}
+	.main_header {
+		height: 40px;
+	}
+	.logo {
+		width: 27%;
+	}
+	.now {
+		top: 76%;
+		left: 36%;
+		width: 150px;
+		height: 36px;
+		font-size: 25px;
+	}
+	.sale {
+		left: 35%;
+		top: 29%;
+	}
+	i.far.fa-arrow-alt-circle-left {
+		font-size: 40px;
+	}
+	i.far.fa-arrow-alt-circle-right {
+		font-size: 40px;
+	}
+	.mid {
+		height: 100px;
+		width: 150px;
+	}
+	.MID, .UP {
+		display: none;
+	}
+	.SALE, .OFF {
+		font-size: 25px;
+	}
+	.ship {
+		display: block;
+		height: 100%;
+	}
+	.ship>div {
+		width: 100%;
+	}
+	.ship>div>.big {
+		font-size: 25px;
+		margin-bottom: 34px;
+		color: white;
+	}
+	.ship>div>p {
+		font-size: 15px;
+		margin-bottom: 0;
+	}
+	i.far.fa-clock {
+		top: 32px;
+		font-size: 36px;
+		transform: rotate(0deg);
+		left: 45%;
+	}
+	i.fas.fa-money-bill-alt {
+		top: 0;
+		font-size: 75px;
+		transform: rotate(0deg);
+		left: 5%;
+	}
+	i.fas.fa-fighter-jet {
+		top: 8px;
+		font-size: 75px;
+		left: 5%;
+		transform: rotate(0deg);
+	}
+	.days::before {
+		content: "";
+		right: -65px;
+		position: absolute;
+		width: 108px;
+		background: #ffffff;
+		height: 82px;
+		clip-path: polygon(100% 0%, 55% 50%, 100% 100%, 40% 100%, 0% 50%, 40% 0);
+	}
+	.days::after {
+		left: -65px;
+		position: absolute;
+		width: 108px;
+		background: #ffffff;
+		height: 82px;
+	}
+}
+@media (max-width:481px) {
+	.wrapper {
+		width: 320px;
+	}
+	.logo {
+		width: 40%;
+		margin: 0 auto;
+		margin-bottom: 4px;
+	}
+	.main_menu {
+		width: 100%;
+		margin-top: 3px;
+	}
+	.main_header.wrapper {
+		height: 100%;
+		flex-direction: column-reverse;
+	}
+	p.phone {
+		margin-left: 2%;
+		font-size: 9px;
+		margin-top: 14px;
+	}
+	.menu_top>p {
+		margin-right: 5%;
+		font-size: 7px;
+	}
+	.now {
+		top: 107%;
+		left: 27%;
+		border-radius: 10%;
+		width: 150px;
+		height: 48px;
+		font-size: 26px;
+		border: 2px solid #b3d7ff;
+	}
+	.slider.wrapper {
+		border-bottom: 2px solid red;
+	}
+	.SALE, .OFF {
+		font-size: 20px;
+	}
+	.mid {
+		height: 109px;
+		width: 98px;
+		background-color: rgba(255, 255, 255, 0.56);
+	}
+	.ship>div>.big {
+		text-align: end;
+		padding-right: 9px;
+	}
+	.ship>div>p {
+		text-align: end;
+		padding-right: 9px;
+	}
+	i.far.fa-clock {
+		top: 12px;
+		font-size: 67px;
+		left: 5%;
+	}
+	.collec>hr {
+		width: 41px;
+	}
+	h3 {
+		font-size: 25px;
+	}
+	.shops, .information, .custom {
+		width: 230px;
+		margin-left: 10px;
+	}
+	.ship {
+		display: block;
+		height: 100%;
+		background: rebeccapurple;
+	}
+	.ship>div {
+		width: 100%;
+		border-top: 2px red solid;
+	}
+}
